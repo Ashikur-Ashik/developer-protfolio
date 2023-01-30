@@ -1,11 +1,11 @@
 *{
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
     font-family: 'Poppins', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
 }
 
 h1{
-    font-size: 45px;
+    font-size: 55px;
 }
 .orange_color{
     color: orange;
@@ -13,13 +13,32 @@ h1{
 section{
     display: flex;
 }
+.top-banner{
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-size:  77px;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
+.left{
+    padding-left: 8%;
+}
+.right{
+    width: 50%;
+}
+#build{
+    padding-top: 3%;
+}
+#main{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
 .half-width img {
-    height: 60%;
-    width: 82%;
+    background-size:auto;
+    /* height: 60%;
+    width: 82%; */
 }
 .link_button{
     text-decoration: none;
