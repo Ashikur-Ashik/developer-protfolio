@@ -1,3 +1,5 @@
+/* section class=".top-banner" */
+
 *{
     /* font-family: 'Merriweather', serif; */
     font-family: 'Poppins', sans-serif;
@@ -28,12 +30,13 @@ section{
 .right{
     width: 50%;
 }
-#build{
+.build{
     padding-top: 3%;
 }
-#main{
+.main{
     padding-top: 2%;
     padding-bottom: 5%;
+    text-align: justify;
 }
 .half-width img {
     background-size:auto;
@@ -47,4 +50,22 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+/* close section class=".top-banner"  */
+
+
+.big-dream{
+    margin-top: 6%;
+    background-image: url(images/side_bg.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 106%;
+}
+#ashik-rem{
+    height: 125%;
+}
+.big-dreamer{
+    padding-left: 0%;
+    padding-right: 5%;
 }
