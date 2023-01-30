@@ -1,0 +1,12 @@
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+.orange_color{
+    color: orange;
+}
