@@ -9,10 +9,14 @@
 h1{
     font-size: 55px;
 }
+h2{
+    font-size: 45px;
+    font-weight: 600;
+}
 .orange_color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .top-banner{
@@ -68,4 +72,49 @@ section{
 .big-dreamer{
     padding-left: 0%;
     padding-right: 5%;
+}
+
+.expericen-banner{
+    padding-bottom: 10%;
+    background-image: url(images/t_red.png);
+    background-repeat: no-repeat;
+    background-position: -35%;
+}
+
+.experience-detail{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px gray;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+#left{
+    border-left: 10px solid orangered;
+}
+#right{
+    border-left: 10px solid blue;
+}
+
+.experienc_item{
+   padding-right: 7%;
+   text-align: justify; 
+}
+
+.contact{
+    display: flex;
+}
+
+.contact_ditals{
+    width: 50%;
+}
+.contact_ditals a{
+    text-decoration: none;
+    padding-left: 12%;
+    color: black;
+}
+
+footer{
+    padding-top: 5%;
+    text-align: center;
 }
