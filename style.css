@@ -113,6 +113,16 @@ h2{
     padding-left: 12%;
     color: black;
 }
+.icon{
+    font-size: 35px;
+}
+.fa-brands{
+    color: orangered;
+
+}
+.policy{
+    padding-top: 13px;
+}
 
 footer{
     padding-top: 5%;
